@@ -79,7 +79,7 @@ footer {
 .CTz-header {
 	width:100%;
 	height: 250px; /* must set a specified height */	
-	background-image: url("../images/header5.png");
+	background-image: url("../images/Tz-header.png");
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container */
