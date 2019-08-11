@@ -10,13 +10,14 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="./css/style.css" rel="stylesheet">
+	<!--<link rel="import" href="/content/background/background.html">-->
 
     <title>TZATZAKIS @ Github</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="./js/functions.js"></script>
 </head>
 
-<body>
+<body">
 <div id="CTz-top-bar" class="CTz-fixed-bar">
 
 </div>
@@ -36,160 +37,28 @@
 		</a>
   </div>
 </div>
+<div id="CTz-mainSection" class="CTz-mainSection">
+	<div id="CTz-mainBody" class="CTz-mainContent">
+		<section id="CTz-mainIntro" class="CTz-mainIntro">
+			<div include-html="./content/main/main.html"></div>
+		</section>
+		<section id="CTz-background" class="CTz-background">
+			<div include-html="./content/background/background.html"></div>
+		</section>
+		<section id="CTz-repoSpace" class="CTz-repoNav">
+			<div include-html="./content/repos/repos.html"></div>
+		</section>
+		<section id="CTz-contact" class="CTz-contact">
+			<div include-html="./content/contact/contact.html"></div>
+		</section>
+	</div>
 
-<div id="CTz-mainBody" class="CTz-mainContent">
-	<div id="CTz-mainIntro" class="CTz-mainIntro">
-		<!--<div include-html="demo.html"></div> 
-		<script src="demo.js"></script>-->
-		<p class="center" >
-			<br/>
-				<div style="position:relative; height:150px">
-				<img src="./images/chris_33452504.png" alt="Chris" class="myimage">
-				<h2 style="position:absolute; left:145px; top:25px;">Welcome to Chris Tzatzakis's web page.</h2>
-				</div>
-				<p> Chris is an experienced software engineer and data scientist with considerable experience in information security. He is professional, creative, military trained, with strong work ethics, strong analytical and management skills, critical thinking and adaptability. 
-				<br/><br/> 
-				Here you can find information about Chris's background, experience, repositories, articles and ways to contact him directly.</p>
-				<h2>Chris's articles</h2>
-				<div class="wrapper">
-				<div id="art5" class="article"> 
-					<img src="./images/IoT_nanotech.png" alt="IoT_nanotech" width="100%">
-					<br/>
-					<h3>IoT & Nanotechnology</h3> 
-					<p>Publish date: August 5, 2018 </p>
-				</div>
-				<p/>
-				<div id="art4" class="article"> 
-					<img src="./images/IoT_malware.png" alt="IoT_malware" width="100%">
-					<br/>
-					<h3>IoT malwares & botnets</h3> 
-					<p>Publish date: July 29, 2018</p>
-				</div>
-				<p/>
-				<div id="art3" class="article"> 
-					<img src="./images/DoS.png" alt="DoS" width="100%">
-					<br/>
-					<h3>DoS attacks and firewall security assessment</h3> 
-					<p>Publish date: July 20, 2018</p>
-				</div>
-				<p/>
-				<div id="art2" class="article"> 
-					<img src="./images/gdpr.png" alt="gdpr" width="100%">
-					<br/>
-					<h3>EU General Data Protection Regulation (GDPR)</h3> 
-					<p>Publish date: June 27, 2018 </p>
-				</div>
-				<p/>
-				<div id="art1" class="article"> 
-					<img src="./images/nanotechmadeinchine.png" alt="nanotechmadeinchine" width="100%">
-					<br/>
-					<h3>China's exponential growth to be #1 in nanotechnology</h3> 
-					<p>Publish date: June 25, 2017</p>
-				</div>
-				</div>
-		</p>
-	</div>
-	<div id="CTz-background" class="CTz-background">
-		<p class="center" >
-			<br/>
-				<h2>Education</h2>
-		</p>
-		<div>
-			<h3>M.Sc. in Nanosciences & Nanotechnologies</h3>
-			<p>Educated in numerical and computational techniques in nanoscale, models & theories of molecular and atomic processes (Simulation Techniques, Statistics sets, Algorithms, Arithmetic Simulations in Nanomaterials etc), also in bioinformatics (Alignment Sequences, Comparison algorithm, Structure Prediction, Genetic algorithms etc) and in material engineering, nano-mechanics, biomechanics & biomaterials, thin films.
-</p>
-		</div>
-		<div>
-			<h3>B.Eng. in Informatics & Commucications</h3>
-			<p> Educated in computetional techniques and systems, software engineering, data structures, algorithms, information theory, cryptography, databases etc, telecommunications, network engineering & information security, computer architecture, electronics & advanced digital and systems. </p>
-		</div>
-		<p class="center" >
-			<br/>
-				<h2>Work Experience</h2>
-		</p>
-		<div>
-			<h3>Information Security Consultant</h3>
-			<p>As data protection consultant performing data protection impact assessment (DPIA), GDPR compliance consulting and assessment. 
-			Also planning, designing and documenting business networks based on the latest standards (ISO/IEC 27000 Series - ISMS). 
-			As information security analyst performing penetration testing, analyzing and assessing information security risks </p>
-		</div>
-		<div>
-			<h3>Research & Informatics Corps Officer of the Hellenic Army</h3>
-			<p>Handling office management and directorate issues in everyday routine.
-			Maintenance, upgrading, problem solving and managing information assurance and security of the Military Intranet in the respective areas of responsibility.
-			Partaking in developing intranet (web) applications, upgrading functionalities and code in local applications. </p>
-		</div>
-		<div>
-			<h3>C++ Developer - Web Developer</h3>
-			<p>Software development mainly in C++, web development & maintenance.</p>
-		</div>
-		<div>
-			<h3>IT Engineer</h3>
-			<p>Personal computers and small networks problem solving, data recovery, forensic analysis and malware removal. </p>
-		</div>
-		<br/><br/>
-	</div>
-	<div id="CTz-repoSpace" class="CTz-repoNav">
-		<p class="center" >
-			<br/>
-				<h2>List of repositories</h2>
-		</p>
-		<a href="">
-			<div>
-				<h3>Damerau-Levenshtein distance</h3>
-				<p>A string metric for measuring the edit distance between two sequences.</p>
-			</div>
+	<div id="leftsidebanner" class="leftsidebanner"> 	
+		<a href="https://internetdefenseleague.org">
+			<img src="https://internetdefenseleague.org/images/badges/final/shield_badge.png" alt="Member of The Internet Defense League"/>
 		</a>
-		<a href="">
-			<div>
-				<h3>Computational physics</h3>
-				<p>Simulation exercises for modeling and theoretical approach of molecular and atomic processes.</p>
-			</div>
-		</a>
-		<a href="">
-			<div>
-				<h3>Algorithms</h3>
-				<p>Data structures algorithmic library</p>
-			</div>
-		</a>
-		<a href="">
-			<div>
-				<h3>Wordlists</h3>
-				<p>A sample set of word lists / dictionaries for testing against a dictionary attack</p>
-			</div>
-		</a>
-		<a href="">
-			<div>
-				<h3>Joomla Template 1Q_2014</h3>
-				<p>Website Template for an Engineering Company 2014 - 2017 </p>
-			</div>
-		</a>
-		<a href="">
-			<div>
-				<h3>Web development basics</h3>
-				<p>Website basics tutorial- Stuff beginers need to know </p>
-			</div>
-		</a>
-		<a href="">
-			<div>
-				<h3>C++ basics</h3>
-				<p>Tutorial Coding for C++ - Stuff beginers need to know </p>
-			</div>
-		</a>
-		<a href="">
-			<div>
-				<h3>HANGMAN for linux</h3>
-				<p>A game written for educational purposes during my linux learning years. </p>
-			</div>
-		</a>
-		<p><br/></p>
-	</div>
-	<div id="CTz-contact" class="CTz-contact">
-		<p>contact</p>
 	</div>
 </div>
- 	
-	<a href="https://internetdefenseleague.org"><img src="https://internetdefenseleague.org/images/badges/final/shield_badge.png" alt="Member of The Internet Defense League"/></a>
 
 <footer>
 	<div class="center">
@@ -209,7 +78,7 @@
 				</td>
 				<td id="foot24" class="CTz-subfooter">
 					<div class="CTz-container">
-						<p>&copy; Copyright C.TZATZAKIS 2018-<span id="copyright-last-year"><script>document.write(new Date().getFullYear())</script></span></p>
+						<p>&copy; Copyright C.TZATZAKIS <br/>2018-<span id="copyright-last-year"><script>document.write(new Date().getFullYear())</script></span></p>
 					</div>
 				</td>
 			</tr>
@@ -217,7 +86,6 @@
 				<p><br/></p>
 			</td></tr>
 		</table>
-
 	</div>
 </footer>
     <!-- /container -->
