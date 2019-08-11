@@ -143,6 +143,7 @@ display:none;
 @media screen and (max-width: 870px) {
   .article {
     font-size: 10px;
+    line-height: 1.7;
 }
 }
 
