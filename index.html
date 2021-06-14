@@ -67,8 +67,10 @@
 		<p>
 			<h1>
 				<h2>
-					<h3>
+					<h3> 
+						<br/>
 						<!-- Informatics & Communications Engineer <br/> Nanotechnology Engineer -->
+						<br/>
 					</h3>
 				</h2>
 			</h1>
@@ -83,7 +85,7 @@
   <script src="./js/app.js"></script>
 
   <!-- Experience -->
-  <section class="page-section" id="experience">
+  <section class="page-section page-section-min-height" id="experience">
     <div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -117,16 +119,14 @@
           <p class="text-muted">Security risk & vulnerability assessments and treatment plans. Security management systems and processes (ISMS) - ISO/IEC 27000 Series.  GDPR compliance assessment.</p>
         </div>
       </div>
-	<section class="page-section" id="portfolio" style="background-color:#FFF;">
-    <div class="container"> 
-		<div class="row">
+
+		<div class="row" >
 			<div class="col-lg-12 text-center">
-				<h2 class="section-heading text-uppercase">Background</h2>
-				<h3 class="section-subheading text-muted"></h3>
+				<h3 class="section-subheading text-muted"><h2>Background</h2></h3>
 			</div>
 		</div>
 		
-		<div class="row">
+		<div class="row" id="portfolio" style="background-color:#FFF;">
 			<div class="col-md-4 col-sm-6 portfolio-item">
 			  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal0">
 				<div class="portfolio-hover">
@@ -172,15 +172,14 @@
 			  </div>
 			</div>
 	  </div>
-	  </div>
-	  </section>
+
     </div>
   </section>
 
   <!-- Portfolio Grid --> 
   <!-- bg-light -->
-  <div id="portfolioMenu" class="page-section-portfolio"> 
-  <section class="page-section page-section-portfolio d-flex align-items-center flex-column justify-content-center h-100" id="portfolio">
+  <div id="portfolioMenu"> 
+  <section class="page-section page-section-min-height d-flex align-items-center flex-column justify-content-center h-100" id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -188,15 +187,13 @@
           <h3 class="section-subheading text-muted">Code Repository Samples <br/><br/>
 				<p>Find more on my github profile
 				<a href="https://github.com/CTzatzakis">here</a>
-				</p> 
-				
+				</p> 		
 		  </h3>
 		  
-        </div>
-      </div>
-		
-		<div class=" row scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
-				
+		</div>
+      </div>  
+		  <div class=" row scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+		  
 				<div class="col-7">
 					<a href="https://github.com/CTzatzakis/Damerau-Levenshtein-distance">
 						<div class="card card-block card-1">
@@ -301,7 +298,74 @@
 						</div>
 					</a>
 				</div>
+		</div>
+		   
+		<div class="row">
+		<div class="col-lg-12 text-center">
+			<h2 class="section-heading text-uppercase"></h2>
+			<h3 class="section-subheading text-muted"><h2>Non Open Source Work samples</h2> </h3>
+		</div>
+		</div>
+		<div class=" row scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
 				
+				<!-- col-md-4 col-sm-6 -->
+				<div class="col-md-4 col-sm-6 portfolio-item portfolio-item-min-width">
+				  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+					<div class="portfolio-hover">
+					  <div class="portfolio-hover-content">
+						<i class="fas fa-plus fa-3x"></i>
+					  </div>
+					</div>
+					<img class="img-fluid" src="img/portfolio/network-ml-thumbnail.jpg" alt="">
+				  </a>
+				  <div class="portfolio-caption">
+					<h4>Analysis of Real-World Innovation Networks</h4>
+					<p class="text-muted"></p>
+				  </div>
+				</div>
+				<div class="col-md-4 col-sm-6 portfolio-item portfolio-item-min-width">
+				  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+					<div class="portfolio-hover">
+					  <div class="portfolio-hover-content">
+						<i class="fas fa-plus fa-3x"></i>
+					  </div>
+					</div>
+					<img class="img-fluid" src="img/portfolio/prf-11-thumbnail.jpg" alt="">
+				  </a>
+				  <div class="portfolio-caption">
+					<h4>UAV-Drone Drivers Development </h4>
+					<p class="text-muted"></p>
+				  </div>
+				</div>
+				<div class="col-md-4 col-sm-6 portfolio-item portfolio-item-min-width">
+				  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+					<div class="portfolio-hover">
+					  <div class="portfolio-hover-content">
+						<i class="fas fa-plus fa-3x"></i>
+					  </div>
+					</div>
+					<img class="img-fluid" src="img/portfolio/hrlo-thumbnail.jpg" alt="">
+				  </a>
+				  <div class="portfolio-caption">
+					<h4>Web App for a HR Liaison Office</h4>
+					<p class="text-muted"></p>
+				  </div>
+				</div>
+				<div class="col-md-4 col-sm-6 portfolio-item portfolio-item-min-width">
+				  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+					<div class="portfolio-hover">
+					  <div class="portfolio-hover-content">
+						<i class="fas fa-plus fa-3x"></i>
+					  </div>
+					</div>
+					<img class="img-fluid" src="img/portfolio/ef-thumbnail.jpg" alt="">
+				  </a>
+				  <div class="portfolio-caption">
+					<h4>Web Development & Administration</h4>
+					<p class="text-muted"></p>
+				  </div>
+				</div>
+								
 				
 		</div>
 		
@@ -312,7 +376,7 @@
 
    <!-- Articles -->
 	<!--
-  <section class=" py-5" id="Articles">
+  <section class=" py-5 page-section-min-height" id="Articles">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -347,7 +411,7 @@
   -->
   
   <!-- About -->
-  <section class="page-section page-section-about" id="About">
+  <section class="page-section page-section-min-height" id="About">
     <div class="container"> 
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -547,6 +611,144 @@
                   <li>Client: Energyfirst</li>
                   <li>Category: Software Engineering</li>
                 </ul>-->
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- non open source row -->
+    <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">UAV-Drone drivers development</h2>
+                <p class="item-intro text-muted">Development of custom device drivers for the interface of PC - UAV (Unmanned Aerial Vehicle), to manage and configure the UAV from a PC, using USB input to Virtual COM port.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/prf-11.jpg" alt="">
+                <p>Device drivers provide access to the hardware features and are vitally important to the performance, reliability and flexibility of the system. As device drivers are the link between the application software and hardware components, developers must have an in-depth knowledge of both to ensure the driver is reliable, efficient and well structured. </p>
+                <ul class="list-inline">
+                  <li>Date: January 2014</li>
+                  <li>Client: GeoAnalysis S.A.</li>
+                  <li>Category: Software Engineering</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Website development and administration - Energyfirst</h2>
+                <p class="item-intro text-muted">Website for an Engineering Company  2014 - 2017</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/ef.jpg" alt="">
+                <p>A website for an Engineering Company (2014 - 2017), promoting renewable energy applications and efficiency of indoor environments (Houses, Offices, Storage Units etc.). Developed and administered for 3 years.</p>
+                <ul class="list-inline">
+                  <li>Date: February 2014</li>
+                  <li>Client: Energyfirst</li>
+                  <li>Category: Software Engineering</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Web application for a human resources liaison office</h2>
+                <p class="item-intro text-muted">A Human Resources Liaison Office component for Joomla CMS.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/hrlo.jpg" alt="">
+                <p>A Human Resources Liaison Office component for Joomla CMS, part of my Bachelor of Engineering thesis.</p>
+                <ul class="list-inline">
+                  <li>Date: December 2014</li>
+                  <li>Client: Bachelor thesis</li>
+                  <li>Teammate: Margarita Kontofaka</li>
+				  <li>Category: Software Engineering</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Analysis of Real-World Innovation Networks with data Mining & Machine Learning</h2>
+                <p class="item-intro text-muted"></p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/network-ml-full.jpg" alt="">
+                <p>Study of real-world data related to innovation such as research partnerships and large corporate data, which were preprocessed, cleansed and used to build networks. The existing relationships between these networks at different levels (geographic, corporate, etc.) are constructed and their properties examined. Network data are being studied using data mining and machine learning models for existing patterns to better understand the dynamics of the past and predict the network’s evolution for future decision making.</p>
+                <ul class="list-inline">
+                  <li>Date: July 2019</li>
+                  <li>Client: Master Thesis</li>
+                  <li>Category: Data Science, Software Engineering</li>
+				  <li><a href="https://ikee.lib.auth.gr/record/306697?ln=el" >Published </a> </li>
+                </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
